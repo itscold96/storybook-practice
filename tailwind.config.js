@@ -3,6 +3,9 @@ module.exports = {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {},
+    borderRadius: {
+      'primary-button': '5px',
+    },
     fontSize: {
       xs: [
         '12px',
@@ -47,6 +50,7 @@ module.exports = {
       mono200: ' #bebebe',
       mono300: ' #d6d7d9',
       error: ' #d01e1e',
+      social: '#395997',
     },
   },
   plugins: [],
