@@ -12,6 +12,7 @@ const meta = {
   argTypes: {
     alt: { control: 'text', description: '이미지의 alt 속성' },
     iconPath: { control: 'text', description: '아이콘 이미지 경로' },
+    onIconClick: { description: '아이콘 클릭 시 실행될 함수' },
   },
   args: {
     onIconClick: fn(),
