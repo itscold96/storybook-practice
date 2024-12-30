@@ -5,6 +5,7 @@ module.exports = {
     extend: {},
     borderRadius: {
       'primary-button': '5px',
+      'tag-button': '17.5px',
     },
     fontSize: {
       xs: [
