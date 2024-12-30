@@ -13,7 +13,7 @@ const meta = {
     id: { control: 'text', description: '텍스트 필드 id' },
     placeholder: { control: 'text', description: '텍스트 필드 플레이스홀더' },
     value: { control: 'text', description: '텍스트값' },
-    isError: { control: 'boolean', description: '텍스트 필드 에러 유무' },
+    isError: { control: 'boolean', description: '텍스트 필드 에러 표시 여부' },
     iconPath: { control: 'text', description: '아이콘 경로' },
     iconAlt: { control: 'text', description: '아이콘 alt 속성' },
     errorMessage: { control: 'text', description: '에러 메시지 내용' },
